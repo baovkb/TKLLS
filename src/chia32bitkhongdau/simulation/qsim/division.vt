@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/20/2023 20:47:45"
+// Generated on "05/21/2023 20:11:05"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    division
 // 
@@ -30,18 +30,18 @@ module division_vlg_sample_tst(
 	A,
 	B,
 	CLK,
-	S,
+	Start,
 	sampler_tx
 );
 input [31:0] A;
 input [31:0] B;
 input  CLK;
-input  S;
+input  Start;
 output sampler_tx;
 
 reg sample;
 time current_time;
-always @(A or B or CLK or S)
+always @(A or B or CLK or Start)
                                                                                 
 begin                                                 
  if ($realtime > 0)                                   
@@ -2481,7 +2481,7 @@ module division_vlg_vec_tst();
 reg [31:0] A;
 reg [31:0] B;
 reg CLK;
-reg S;
+reg Start;
 // wires                                               
 wire Done;
 wire [63:0] Qu;
@@ -2498,7 +2498,7 @@ division i1 (
 	.Done(Done),
 	.Qu(Qu),
 	.R(R),
-	.S(S)
+	.Start(Start)
 );
 
 // CLK
@@ -2509,11 +2509,11 @@ begin
 	#2500;
 end 
 
-// S
+// Start
 initial
 begin
-	S = 1'b1;
-	S = #10000 1'b0;
+	Start = 1'b1;
+	Start = #10000 1'b0;
 end 
 // A[ 31 ]
 initial
@@ -2840,7 +2840,7 @@ division_vlg_sample_tst tb_sample (
 	.A(A),
 	.B(B),
 	.CLK(CLK),
-	.S(S),
+	.Start(Start),
 	.sampler_tx(sampler)
 );
 
