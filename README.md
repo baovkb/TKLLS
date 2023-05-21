@@ -1,4 +1,4 @@
-Báo cáo đề tài: Thiết kế bộ nhân, chia 32 bits số nguyên không dấu
+Báo cáo đề tài môn Thiết kế luận lý số: Thiết kế bộ nhân, chia 32 bits số nguyên không dấu
 
 Thành viên gồm: 
 Phùng Đức Bảo 21521860
