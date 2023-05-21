@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Learning\TKLLS\DoAn1\simulation\qsim
+vdivision
+Z1 !s100 oz0B<<m@CKIX@BV]bgf^=1
+Z2 IBKga<?Q]I4Y5DBnKPWj_^1
+Z3 V7Dd=GVE2YUF@m7=BNfZz]1
+Z4 dD:\Learning\TKLLS\chia32bitkhongdau\simulation\qsim
+Z5 w1684590466
+Z6 8division.vo
+Z7 Fdivision.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|division.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1684590467.222000
+Z12 !s107 division.vo|
+!s101 -O0
+vdivision_vlg_check_tst
+!i10b 1
+Z13 !s100 5E=KkHnmfPT79n_?lOdfo1
+Z14 IGRNg?c7_Be3;1hBIXBRWl3
+Z15 VOKTzi2fQa9[nPW5?E5R5<2
+R4
+Z16 w1684590465
+Z17 8division.vt
+Z18 Fdivision.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1684590467.363000
+Z20 !s107 division.vt|
+Z21 !s90 -work|work|division.vt|
+!s101 -O0
+R10
+vdivision_vlg_sample_tst
+!i10b 1
+Z22 !s100 VSNdbD:fYPh6i<jIC1In@3
+Z23 IB>=6_KjlDGO;kS>m5j9kF0
+Z24 VAX5Gnnn9PcP:i@Z698U]60
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vdivision_vlg_vec_tst
+!i10b 1
+Z25 !s100 C[O^mRc5LkSO<MRbS0nEU2
+Z26 IORlImROD]`7P[gggOk>YM1
+Z27 Ve_Ra[o[FM`2mK<iTl^jP83
+R4
+R16
+R17
+R18
+Z28 L0 2478
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
