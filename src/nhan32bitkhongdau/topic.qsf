@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE EP2C35F672C6
-set_global_assignment -name TOP_LEVEL_ENTITY VXL
+set_global_assignment -name TOP_LEVEL_ENTITY SignedVXL
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:43:30  MAY 14, 2023"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
@@ -59,6 +59,8 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_s
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE CacThietKe/trans_32bits.bdf
+set_global_assignment -name BDF_FILE CacThietKe/XOR_16BIT.bdf
 set_global_assignment -name BDF_FILE CacThietKe/Up_DownCounter/Up_DownCounter6bit.bdf
 set_global_assignment -name BDF_FILE CacThietKe/Up_DownCounter/HAS.bdf
 set_global_assignment -name BDF_FILE CacThietKe/SRwPL/SRwPL1bit.bdf
@@ -87,9 +89,15 @@ set_global_assignment -name BDF_FILE CacThietKe/FA/ADD_SUB1_16BIT.bdf
 set_global_assignment -name BDF_FILE CacThietKe/Contro/TTKT.bdf
 set_global_assignment -name BDF_FILE CacThietKe/Contro/NgoRa.bdf
 set_global_assignment -name BDF_FILE CacThietKe/Contro/Controller.bdf
+set_global_assignment -name BDF_FILE CacThietKe/Decoder/Decoder2to4.bdf
+set_global_assignment -name BDF_FILE CacThietKe/FA/F_A_32bits.bdf
+set_global_assignment -name BDF_FILE CacThietKe/FA/ADD_SUB_64bits.bdf
+set_global_assignment -name BDF_FILE CacThietKe/FA/ADD_SUB_32bits.bdf
 set_global_assignment -name BDF_FILE Counter.bdf
 set_global_assignment -name BDF_FILE Datapath.bdf
+set_global_assignment -name BDF_FILE trans_64bits.bdf
 set_global_assignment -name BDF_FILE VXL.bdf
+set_global_assignment -name BDF_FILE SignedVXL.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/Downloads/Quartus/Quartus/Waveform.vwf"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Bao/TKLLS/src/chia32bitkhongdau/Waveform.vwf"

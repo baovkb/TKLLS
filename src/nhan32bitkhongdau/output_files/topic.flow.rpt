@@ -1,5 +1,5 @@
 Flow report for topic
-Sun May 21 17:15:25 2023
+Tue May 23 21:05:11 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Sun May 21 17:15:25 2023           ;
+; Flow Status                        ; Successful - Tue May 23 21:05:11 2023           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; topic                                           ;
-; Top-level Entity Name              ; VXL                                             ;
+; Top-level Entity Name              ; SignedVXL                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F672C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 369 / 33,216 ( 1 % )                            ;
-;     Total combinational functions  ; 361 / 33,216 ( 1 % )                            ;
+; Total logic elements               ; 546 / 33,216 ( 2 % )                            ;
+;     Total combinational functions  ; 524 / 33,216 ( 2 % )                            ;
 ;     Dedicated logic registers      ; 233 / 33,216 ( < 1 % )                          ;
 ; Total registers                    ; 233                                             ;
 ; Total pins                         ; 131 / 475 ( 28 % )                              ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 05/21/2023 17:15:11 ;
+; Start date & time ; 05/23/2023 21:04:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; topic               ;
 +-------------------+---------------------+
@@ -75,19 +75,19 @@ applicable agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 18039803067520.168466411101468        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 18039803067520.168485069512616        ; --            ; --          ; --             ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                    ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; 16764057                              ; --            ; VXL         ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; VXL         ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; VXL         ; Top            ;
+; PARTITION_COLOR                     ; 16764057                              ; --            ; SignedVXL   ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; SignedVXL   ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; SignedVXL   ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                          ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; VXL                                   ; topic         ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; SignedVXL                             ; topic         ; --          ; --             ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 
 
@@ -96,12 +96,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4605 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:05     ; 1.0                     ; 4890 MB             ; 00:00:05                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 4566 MB             ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4557 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:00                           ;
-; Total                     ; 00:00:10     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4613 MB             ; 00:00:03                           ;
+; Fitter                    ; 00:00:06     ; 1.0                     ; 4890 MB             ; 00:00:05                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 4565 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4562 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4515 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:12     ; --                      ; --                  ; 00:00:10                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
