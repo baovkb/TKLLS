@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/30/2023 09:20:35"
+// Generated on "05/30/2023 23:50:22"
                                                                         
 // Verilog Self-Checking Test Bench (with test vectors) for design :    signedVXL
 // 
@@ -2518,7 +2518,7 @@ end
 // A[ 31 ]
 initial
 begin
-	A[31] = 1'b1;
+	A[31] = 1'b0;
 end 
 // A[ 30 ]
 initial
@@ -2648,12 +2648,12 @@ end
 // A[ 5 ]
 initial
 begin
-	A[5] = 1'b0;
+	A[5] = 1'b1;
 end 
 // A[ 4 ]
 initial
 begin
-	A[4] = 1'b0;
+	A[4] = 1'b1;
 end 
 // A[ 3 ]
 initial
@@ -2673,7 +2673,7 @@ end
 // A[ 0 ]
 initial
 begin
-	A[0] = 1'b0;
+	A[0] = 1'b1;
 end 
 // B[ 31 ]
 initial
@@ -2813,27 +2813,27 @@ end
 // B[ 4 ]
 initial
 begin
-	B[4] = 1'b1;
+	B[4] = 1'b0;
 end 
 // B[ 3 ]
 initial
 begin
-	B[3] = 1'b1;
+	B[3] = 1'b0;
 end 
 // B[ 2 ]
 initial
 begin
-	B[2] = 1'b1;
+	B[2] = 1'b0;
 end 
 // B[ 1 ]
 initial
 begin
-	B[1] = 1'b1;
+	B[1] = 1'b0;
 end 
 // B[ 0 ]
 initial
 begin
-	B[0] = 1'b0;
+	B[0] = 1'b1;
 end 
 
 signedVXL_vlg_sample_tst tb_sample (

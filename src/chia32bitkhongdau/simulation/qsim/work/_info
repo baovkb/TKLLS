@@ -84,7 +84,7 @@ Z28 !s100 GfJUCoY4>nMjE0a@L7BDa0
 Z29 I1PV=>ElzUFf;WXHLNZlKz3
 Z30 V54:`F@hblFW6H]oBe;3i:2
 Z31 dC:\Users\Bao\TKLLS\src\chia32bitkhongdau\simulation\qsim
-Z32 w1685413235
+Z32 w1685465423
 R5
 R6
 L0 31
@@ -96,7 +96,7 @@ R9
 Z33 nsigned@v@x@l
 !i10b 1
 !s85 0
-Z34 !s108 1685413236.180000
+Z34 !s108 1685465423.923000
 R12
 !s101 -O0
 vsignedVXL_vlg_check_tst
@@ -105,7 +105,7 @@ Z35 !s100 ;AoTYhhdlC4:aojER`agc2
 Z36 IO2__l]Jl:Fin:N:KQd<n>2
 Z37 VAN@[R1PfJ;9C8LoP`jC[Z1
 R31
-R32
+Z38 w1685465422
 R16
 R17
 L0 63
@@ -113,19 +113,19 @@ R7
 r1
 !s85 0
 31
-Z38 !s108 1685413236.345000
-Z39 !s107 division.vt|
+Z39 !s108 1685465424.068000
+Z40 !s107 division.vt|
 R20
 !s101 -O0
 R9
-Z40 nsigned@v@x@l_vlg_check_tst
+Z41 nsigned@v@x@l_vlg_check_tst
 vsignedVXL_vlg_sample_tst
 !i10b 1
-Z41 !s100 D3O_9a2GW?^1X>Q9`kS9:0
-Z42 IMoMLGKSlSjh;N:9M4>8UM3
-Z43 Vh_gG0zL@Cz@C_jKna9Kk50
+Z42 !s100 D3O_9a2GW?^1X>Q9`kS9:0
+Z43 IMoMLGKSlSjh;N:9M4>8UM3
+Z44 Vh_gG0zL@Cz@C_jKna9Kk50
 R31
-R32
+R38
 R16
 R17
 L0 29
@@ -133,19 +133,19 @@ R7
 r1
 !s85 0
 31
-R38
 R39
+R40
 R20
 !s101 -O0
 R9
-Z44 nsigned@v@x@l_vlg_sample_tst
+Z45 nsigned@v@x@l_vlg_sample_tst
 vsignedVXL_vlg_vec_tst
 !i10b 1
-Z45 !s100 [[:E34Mk?hY:fR43j=eko1
-Z46 I`B]n43OOKM=XIVG82:[<`1
-Z47 V7UdcW@n7V``T00<5hRaH[0
+!s100 L0P71RKED29L<zRBIi@lS1
+IPM7ILE1bbHKZDX2@mW;Qn0
+Z46 V7UdcW@n7V``T00<5hRaH[0
 R31
-R32
+R38
 R16
 R17
 R26
@@ -153,9 +153,9 @@ R7
 r1
 !s85 0
 31
-R38
 R39
+R40
 R20
 !s101 -O0
 R9
-Z48 nsigned@v@x@l_vlg_vec_tst
+Z47 nsigned@v@x@l_vlg_vec_tst
