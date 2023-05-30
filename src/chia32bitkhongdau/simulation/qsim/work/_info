@@ -16,14 +16,13 @@ r1
 31
 Z8 !s90 -work|work|division.vo|
 Z9 o-work work -O0
-!i10b 1
 Z10 !s100 aEm=nL5@P7[PFfJ]6QWzD0
-!s85 0
 Z11 !s108 1684674666.894000
 Z12 !s107 division.vo|
+!i10b 1
+!s85 0
 !s101 -O0
 vdivision_vlg_check_tst
-!i10b 1
 Z13 !s100 5E=KkHnmfPT79n_?lOdfo1
 Z14 IGRNg?c7_Be3;1hBIXBRWl3
 Z15 VOKTzi2fQa9[nPW5?E5R5<2
@@ -34,18 +33,17 @@ Z17 Fdivision.vt
 L0 63
 R7
 r1
-!s85 0
 31
 Z18 !s108 1684674667.034000
 Z19 !s107 division.vt|
 Z20 !s90 -work|work|division.vt|
-!s101 -O0
 R9
-vdivision_vlg_sample_tst
 !i10b 1
-!s100 G:JK^8RBRZJc_@Hj6F<HK1
-InajhEOZK[VIJEWH@jze6d3
-VAl;dIGVbbM_7^?AfVe7>N1
+!s85 0
+!s101 -O0
+vdivision_vlg_sample_tst
+Z21 InajhEOZK[VIJEWH@jze6d3
+Z22 VAl;dIGVbbM_7^?AfVe7>N1
 R3
 R4
 R16
@@ -53,29 +51,111 @@ R17
 L0 29
 R7
 r1
-!s85 0
 31
 R18
 R19
 R20
-!s101 -O0
 R9
-vdivision_vlg_vec_tst
+Z23 !s100 G:JK^8RBRZJc_@Hj6F<HK1
 !i10b 1
-!s100 XD>9K;z;h[ndklSG:OBS43
-IP;dIPeY6Lz3]z_@^B2Ro]0
-Z21 Ve_Ra[o[FM`2mK<iTl^jP83
+!s85 0
+!s101 -O0
+vdivision_vlg_vec_tst
+Z24 IP;dIPeY6Lz3]z_@^B2Ro]0
+Z25 Ve_Ra[o[FM`2mK<iTl^jP83
 R3
 R4
 R16
 R17
-Z22 L0 2478
+Z26 L0 2478
 R7
 r1
-!s85 0
 31
 R18
 R19
 R20
+R9
+Z27 !s100 XD>9K;z;h[ndklSG:OBS43
+!i10b 1
+!s85 0
+!s101 -O0
+vsignedVXL
+Z28 !s100 GfJUCoY4>nMjE0a@L7BDa0
+Z29 I1PV=>ElzUFf;WXHLNZlKz3
+Z30 V54:`F@hblFW6H]oBe;3i:2
+Z31 dC:\Users\Bao\TKLLS\src\chia32bitkhongdau\simulation\qsim
+Z32 w1685413235
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z33 nsigned@v@x@l
+!i10b 1
+!s85 0
+Z34 !s108 1685413236.180000
+R12
+!s101 -O0
+vsignedVXL_vlg_check_tst
+!i10b 1
+Z35 !s100 ;AoTYhhdlC4:aojER`agc2
+Z36 IO2__l]Jl:Fin:N:KQd<n>2
+Z37 VAN@[R1PfJ;9C8LoP`jC[Z1
+R31
+R32
+R16
+R17
+L0 63
+R7
+r1
+!s85 0
+31
+Z38 !s108 1685413236.345000
+Z39 !s107 division.vt|
+R20
 !s101 -O0
 R9
+Z40 nsigned@v@x@l_vlg_check_tst
+vsignedVXL_vlg_sample_tst
+!i10b 1
+Z41 !s100 D3O_9a2GW?^1X>Q9`kS9:0
+Z42 IMoMLGKSlSjh;N:9M4>8UM3
+Z43 Vh_gG0zL@Cz@C_jKna9Kk50
+R31
+R32
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R38
+R39
+R20
+!s101 -O0
+R9
+Z44 nsigned@v@x@l_vlg_sample_tst
+vsignedVXL_vlg_vec_tst
+!i10b 1
+Z45 !s100 [[:E34Mk?hY:fR43j=eko1
+Z46 I`B]n43OOKM=XIVG82:[<`1
+Z47 V7UdcW@n7V``T00<5hRaH[0
+R31
+R32
+R16
+R17
+R26
+R7
+r1
+!s85 0
+31
+R38
+R39
+R20
+!s101 -O0
+R9
+Z48 nsigned@v@x@l_vlg_vec_tst

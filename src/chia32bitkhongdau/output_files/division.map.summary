@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun May 21 20:10:33 2023
+Analysis & Synthesis Status : Successful - Tue May 30 09:10:01 2023
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : division
-Top-level Entity Name : division
+Top-level Entity Name : signedVXL
 Family : Cyclone II
-Total logic elements : 571
-    Total combinational functions : 571
+Total logic elements : 830
+    Total combinational functions : 830
     Dedicated logic registers : 203
 Total registers : 203
 Total pins : 195
